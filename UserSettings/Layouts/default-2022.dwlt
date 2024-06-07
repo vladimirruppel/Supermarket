@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 405
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 279
     height: 634
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -315,12 +315,12 @@ MonoBehaviour:
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 1
-  currentStatusEntriesHasUpdate: 1
-  repositoryProgressHasUpdate: 1
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 1
-  changeTab: 2
-  activeTab: 2
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -490,9 +490,9 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
     currentBranch: master
@@ -554,17 +554,17 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2024-06-05T11:51:32.982+07:00
+      updatedTimeString: 2024-06-06T18:42:46.819+07:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2024-06-05T11:53:57.586+07:00
+      updatedTimeString: 2024-06-06T18:42:48.148+07:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2024-06-05T11:54:30.142+07:00
+      updatedTimeString: 2024-06-06T18:42:47.838+07:00
       cacheType: 7
   historyView:
-    currentLogHasUpdate: 1
-    currentTrackingStatusHasUpdate: 1
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
     logEntries:
     - commitID: 499e46b1c28fa9f5a6827fc00c7d91ac192404b5
       mergeA: 
@@ -856,10 +856,10 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2024-06-06T10:30:37.742+07:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2024-06-06T10:30:37.720+07:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
@@ -1402,7 +1402,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/vladimirruppel/Supermarket
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
@@ -1413,13 +1413,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2024-06-05T15:47:27.628+07:00
+    updatedTimeString: 2024-06-06T17:56:08.280+07:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2024-06-05T16:28:19.690+07:00
+    updatedTimeString: 2024-06-06T17:56:09.871+07:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2024-06-05T16:28:19.678+07:00
+    updatedTimeString: 2024-06-06T17:55:55.179+07:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -1487,7 +1487,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1495,16 +1495,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\WiNdOwOzzz\Supermarket
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 345c0000
-    m_LastClickedID: 23604
-    m_ExpandedIDs: 000000002e5c000000ca9a3b
+    m_SelectedIDs: 425c0000
+    m_LastClickedID: 23618
+    m_ExpandedIDs: 00000000385c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1532,7 +1532,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002e5c0000
+    m_ExpandedIDs: 00000000385c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1559,7 +1559,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2028,9 +2028,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 545.62463, y: -146.4118, z: 421.16107}
+    m_Target: {x: -29.400572, y: -21.970034, z: 24.918861}
     speed: 2
-    m_Value: {x: 545.62463, y: -146.4118, z: 421.16107}
+    m_Value: {x: -29.400572, y: -21.970034, z: 24.918861}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2076,13 +2076,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.5267945, y: 0.15660436, z: -0.09945708, w: -0.8295039}
+    m_Target: {x: 0.09306661, y: 0.89018184, z: -0.39306456, w: 0.21076503}
     speed: 2
-    m_Value: {x: -0.526793, y: 0.15660392, z: -0.099456795, w: -0.8295015}
+    m_Value: {x: 0.0930663, y: 0.89017886, z: -0.39306325, w: 0.21076433}
   m_Size:
-    m_Target: 612.9491
+    m_Target: 54.97296
     speed: 2
-    m_Value: 612.9491
+    m_Value: 54.97296
   m_Ortho:
     m_Target: 0
     speed: 2
