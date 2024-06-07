@@ -321,9 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fab0eafd7581c14ab508d1dfba6ee06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubePrefab: {fileID: 423044756203118461, guid: adae0c9ff9c82b94da43ff663eea0d49, type: 3}
-  startWidth: 40
-  startHeight: 30
+  floorElementPrefab: {fileID: 423044756203118461, guid: adae0c9ff9c82b94da43ff663eea0d49, type: 3}
   panSpeed: 1
   panBorderThickness: 15
   panLimitLeftUpper: {x: 0, y: 0}
@@ -331,6 +329,7 @@ MonoBehaviour:
   scrollSpeed: 400
   minZoomHeight: 1
   maxZoomHeight: 20
+  borderCheckInterval: 20
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
