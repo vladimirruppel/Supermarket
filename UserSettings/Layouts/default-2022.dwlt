@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 90
+  controlID: 44
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,12 +64,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1515
+    x: 1518
     y: 0
-    width: 405
+    width: 402
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -93,10 +93,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 279
-    height: 634
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 281
+    height: 626
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -118,9 +118,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 634
-    width: 1515
-    height: 313
+    y: 626
+    width: 1518
+    height: 321
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 13}
@@ -219,12 +219,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1515
+    width: 1518
     height: 947
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 38
+  controlID: 45
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1515
-    height: 634
+    width: 1518
+    height: 626
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 39
+  controlID: 46
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,10 +265,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 279
+    x: 281
     y: 0
-    width: 1236
-    height: 634
+    width: 1237
+    height: 626
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -297,9 +297,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1515
+    x: 1518
     y: 73
-    width: 404
+    width: 401
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -318,9 +318,9 @@ MonoBehaviour:
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 1
-  changeTab: 3
-  activeTab: 3
+  appManagerProgressHasUpdate: 0
+  changeTab: 2
+  activeTab: 2
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -490,20 +490,764 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 1
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
     currentBranch: master
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - 6b4682de38b363f4298902a5990c8c06
+        - 7c86932551b1c034d866770c99122546
+        - 1c8189a2805d5a047be04635c460cf91
+        - 174367f8ad87d3440af63054327a7c13
+        - aad752392f3a53a41b07a0d39328e87b
+        - 95d74bc0b80dfcd40ad39103f836058d
+        - 6f6c92445e81f634e8fa3aa5e9b1834b
+        - ef78d73bba689174cb6c35c052a573ff
+        - 5b22b4955e4e6d04f82632cde6dbf222
+        - 1ae3607b48125504097eef96ef2553db
+        - 6a7cbc43a87f5ad4697c119c9612fcd9
+        - 0de4f87b6b2efca4586f7fb3a5b82231
+        - c2a0735b32ca10e43ad81ebd93de4148
+        - f5be579eea4b4144492d68015b156f1a
+        - 90466a3d4580cf5409fddede4b3aa194
+        - d2aa67d3a76d65b42a7d1e94d93bfb22
+        - b306b22ed6813fc4692232d89a4d2b43
+        - c0c4a76d66a647c4ab8d1b0129133e2d
+        - 00863ebfb458d6d42a6c25b3b6a7fb08
+        - 4dd7744cf26a938408360163c5301ed2
+        - c82db8774666fe449ac6b2a6206e7ddf
+        - f4507b83cbcf43a48a6f68f21d860f5c
+        - 17a4a2215364ec042815daab92349ced
+        - 790a5ab7ad5ac7d4f84435631f8922d1
+        - 5dc3246774aab48479b5b98adde93247
+        - 38a64f4f7e2392f45bb7b53d76f1273c
+        - 597b9d9cbc748f148b2199f0a3f28b53
+        - 460ac9dfb1551ef45ab79e9e8e755799
+        - 9fc0d4010bbf28b4594072e72b8655ab
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Art
+          label: Art
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Art\Materials
+          label: Materials
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Art\Materials\enter_door_texture 1.mat
+          label: enter_door_texture 1.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Materials\enter_door_texture 1.mat
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\enter_door_texture
+              1.mat
+            projectPath: Assets\Art\Materials\enter_door_texture 1.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Materials\NewLayer.terrainlayer
+          label: NewLayer.terrainlayer
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Materials\NewLayer.terrainlayer
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\NewLayer.terrainlayer
+            projectPath: Assets\Art\Materials\NewLayer.terrainlayer
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Materials\terrain.shader
+          label: terrain.shader
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Materials\terrain.shader
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\terrain.shader
+            projectPath: Assets\Art\Materials\terrain.shader
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Materials\terrain_texture.mat
+          label: terrain_texture.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Materials\terrain_texture.mat
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\terrain_texture.mat
+            projectPath: Assets\Art\Materials\terrain_texture.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Materials\wall.mat
+          label: wall.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Materials\wall.mat
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\wall.mat
+            projectPath: Assets\Art\Materials\wall.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Materials\warehouse_door_texture.mat
+          label: warehouse_door_texture.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Materials\warehouse_door_texture.mat
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\warehouse_door_texture.mat
+            projectPath: Assets\Art\Materials\warehouse_door_texture.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Models
+          label: Models
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Art\Models\cash_register.fbx
+          label: cash_register.fbx
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Models\cash_register.fbx
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\cash_register.fbx
+            projectPath: Assets\Art\Models\cash_register.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Models\counter.fbx
+          label: counter.fbx
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Models\counter.fbx
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\counter.fbx
+            projectPath: Assets\Art\Models\counter.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Models\enter_door 2.fbx
+          label: enter_door 2.fbx
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Models\enter_door 2.fbx
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\enter_door
+              2.fbx
+            projectPath: Assets\Art\Models\enter_door 2.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Models\wall.fbx
+          label: wall.fbx
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Models\wall.fbx
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\wall.fbx
+            projectPath: Assets\Art\Models\wall.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Models\wall_to_door.fbx
+          label: wall_to_door.fbx
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Models\wall_to_door.fbx
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\wall_to_door.fbx
+            projectPath: Assets\Art\Models\wall_to_door.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Textures
+          label: Textures
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Art\Textures\cash_register_desk.png
+          label: cash_register_desk.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Textures\cash_register_desk.png
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\cash_register_desk.png
+            projectPath: Assets\Art\Textures\cash_register_desk.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Textures\cash_register_texture.png
+          label: cash_register_texture.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Textures\cash_register_texture.png
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\cash_register_texture.png
+            projectPath: Assets\Art\Textures\cash_register_texture.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Textures\counter_texture.png
+          label: counter_texture.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Textures\counter_texture.png
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\counter_texture.png
+            projectPath: Assets\Art\Textures\counter_texture.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Textures\enter_door_texture 1.png
+          label: enter_door_texture 1.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Textures\enter_door_texture 1.png
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\enter_door_texture
+              1.png
+            projectPath: Assets\Art\Textures\enter_door_texture 1.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Textures\warehouse_door_texture.png
+          label: warehouse_door_texture.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Textures\warehouse_door_texture.png
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\warehouse_door_texture.png
+            projectPath: Assets\Art\Textures\warehouse_door_texture.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs
+          label: Prefabs
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Prefabs\Cash register.prefab
+          label: Cash register.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Cash register.prefab
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Cash register.prefab
+            projectPath: Assets\Prefabs\Cash register.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Counter Universal.prefab
+          label: Counter Universal.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Counter Universal.prefab
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Counter Universal.prefab
+            projectPath: Assets\Prefabs\Counter Universal.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Enter door.prefab
+          label: Enter door.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Enter door.prefab
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Enter door.prefab
+            projectPath: Assets\Prefabs\Enter door.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Wall to Door.prefab
+          label: Wall to Door.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Wall to Door.prefab
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Wall to Door.prefab
+            projectPath: Assets\Prefabs\Wall to Door.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Wall.prefab
+          label: Wall.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Wall.prefab
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Wall.prefab
+            projectPath: Assets\Prefabs\Wall.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Warehouse door.prefab
+          label: Warehouse door.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Warehouse door.prefab
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Warehouse door.prefab
+            projectPath: Assets\Prefabs\Warehouse door.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          label: SampleScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\SampleScene.unity
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scenes\SampleScene.unity
+            projectPath: Assets\Scenes\SampleScene.unity
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
       folders:
-        keys: []
-        values: []
+        keys:
+        - Assets
+        - Assets\Art
+        - Assets\Art\Materials
+        - Assets\Art\Models
+        - Assets\Art\Textures
+        - Assets\Prefabs
+        - Assets\Scenes
+        - UserSettings
+        - UserSettings\Layouts
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Art
+          label: Art
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Art\Materials
+          label: Materials
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Art\Models
+          label: Models
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Art\Textures
+          label: Textures
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Prefabs
+          label: Prefabs
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -532,6 +1276,1074 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Art.meta
+        label: Art.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art.meta
+          projectPath: Assets\Art.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art
+        label: Art
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Art\Materials.meta
+        label: Materials.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials.meta
+          projectPath: Assets\Art\Materials.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Materials
+        label: Materials
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Art\Materials\enter_door_texture 1.mat
+        label: enter_door_texture 1.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials\enter_door_texture 1.mat
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\enter_door_texture
+            1.mat
+          projectPath: Assets\Art\Materials\enter_door_texture 1.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Materials\enter_door_texture 1.mat.meta
+        label: enter_door_texture 1.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials\enter_door_texture 1.mat.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\enter_door_texture
+            1.mat.meta
+          projectPath: Assets\Art\Materials\enter_door_texture 1.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Materials\NewLayer.terrainlayer
+        label: NewLayer.terrainlayer
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials\NewLayer.terrainlayer
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\NewLayer.terrainlayer
+          projectPath: Assets\Art\Materials\NewLayer.terrainlayer
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Materials\NewLayer.terrainlayer.meta
+        label: NewLayer.terrainlayer.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials\NewLayer.terrainlayer.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\NewLayer.terrainlayer.meta
+          projectPath: Assets\Art\Materials\NewLayer.terrainlayer.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Materials\terrain.shader
+        label: terrain.shader
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials\terrain.shader
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\terrain.shader
+          projectPath: Assets\Art\Materials\terrain.shader
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Materials\terrain.shader.meta
+        label: terrain.shader.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials\terrain.shader.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\terrain.shader.meta
+          projectPath: Assets\Art\Materials\terrain.shader.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Materials\terrain_texture.mat
+        label: terrain_texture.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials\terrain_texture.mat
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\terrain_texture.mat
+          projectPath: Assets\Art\Materials\terrain_texture.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Materials\terrain_texture.mat.meta
+        label: terrain_texture.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials\terrain_texture.mat.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\terrain_texture.mat.meta
+          projectPath: Assets\Art\Materials\terrain_texture.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Materials\wall.mat
+        label: wall.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials\wall.mat
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\wall.mat
+          projectPath: Assets\Art\Materials\wall.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Materials\wall.mat.meta
+        label: wall.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials\wall.mat.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\wall.mat.meta
+          projectPath: Assets\Art\Materials\wall.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Materials\warehouse_door_texture.mat
+        label: warehouse_door_texture.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials\warehouse_door_texture.mat
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\warehouse_door_texture.mat
+          projectPath: Assets\Art\Materials\warehouse_door_texture.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Materials\warehouse_door_texture.mat.meta
+        label: warehouse_door_texture.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials\warehouse_door_texture.mat.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\warehouse_door_texture.mat.meta
+          projectPath: Assets\Art\Materials\warehouse_door_texture.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Models.meta
+        label: Models.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Models.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models.meta
+          projectPath: Assets\Art\Models.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Models
+        label: Models
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Art\Models\cash_register.fbx
+        label: cash_register.fbx
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Models\cash_register.fbx
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\cash_register.fbx
+          projectPath: Assets\Art\Models\cash_register.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Models\cash_register.fbx.meta
+        label: cash_register.fbx.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Models\cash_register.fbx.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\cash_register.fbx.meta
+          projectPath: Assets\Art\Models\cash_register.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Models\counter.fbx
+        label: counter.fbx
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Models\counter.fbx
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\counter.fbx
+          projectPath: Assets\Art\Models\counter.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Models\counter.fbx.meta
+        label: counter.fbx.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Models\counter.fbx.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\counter.fbx.meta
+          projectPath: Assets\Art\Models\counter.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Models\enter_door 2.fbx
+        label: enter_door 2.fbx
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Models\enter_door 2.fbx
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\enter_door
+            2.fbx
+          projectPath: Assets\Art\Models\enter_door 2.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Models\enter_door 2.fbx.meta
+        label: enter_door 2.fbx.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Models\enter_door 2.fbx.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\enter_door
+            2.fbx.meta
+          projectPath: Assets\Art\Models\enter_door 2.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Models\wall.fbx
+        label: wall.fbx
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Models\wall.fbx
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\wall.fbx
+          projectPath: Assets\Art\Models\wall.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Models\wall.fbx.meta
+        label: wall.fbx.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Models\wall.fbx.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\wall.fbx.meta
+          projectPath: Assets\Art\Models\wall.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Models\wall_to_door.fbx
+        label: wall_to_door.fbx
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Models\wall_to_door.fbx
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\wall_to_door.fbx
+          projectPath: Assets\Art\Models\wall_to_door.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Models\wall_to_door.fbx.meta
+        label: wall_to_door.fbx.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Models\wall_to_door.fbx.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\wall_to_door.fbx.meta
+          projectPath: Assets\Art\Models\wall_to_door.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Textures.meta
+        label: Textures.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Textures.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures.meta
+          projectPath: Assets\Art\Textures.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Textures
+        label: Textures
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Art\Textures\cash_register_desk.png
+        label: cash_register_desk.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Textures\cash_register_desk.png
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\cash_register_desk.png
+          projectPath: Assets\Art\Textures\cash_register_desk.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Textures\cash_register_desk.png.meta
+        label: cash_register_desk.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Textures\cash_register_desk.png.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\cash_register_desk.png.meta
+          projectPath: Assets\Art\Textures\cash_register_desk.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Textures\cash_register_texture.png
+        label: cash_register_texture.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Textures\cash_register_texture.png
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\cash_register_texture.png
+          projectPath: Assets\Art\Textures\cash_register_texture.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Textures\cash_register_texture.png.meta
+        label: cash_register_texture.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Textures\cash_register_texture.png.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\cash_register_texture.png.meta
+          projectPath: Assets\Art\Textures\cash_register_texture.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Textures\counter_texture.png
+        label: counter_texture.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Textures\counter_texture.png
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\counter_texture.png
+          projectPath: Assets\Art\Textures\counter_texture.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Textures\counter_texture.png.meta
+        label: counter_texture.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Textures\counter_texture.png.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\counter_texture.png.meta
+          projectPath: Assets\Art\Textures\counter_texture.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Textures\enter_door_texture 1.png
+        label: enter_door_texture 1.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Textures\enter_door_texture 1.png
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\enter_door_texture
+            1.png
+          projectPath: Assets\Art\Textures\enter_door_texture 1.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Textures\enter_door_texture 1.png.meta
+        label: enter_door_texture 1.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Textures\enter_door_texture 1.png.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\enter_door_texture
+            1.png.meta
+          projectPath: Assets\Art\Textures\enter_door_texture 1.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Textures\warehouse_door_texture.png
+        label: warehouse_door_texture.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Textures\warehouse_door_texture.png
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\warehouse_door_texture.png
+          projectPath: Assets\Art\Textures\warehouse_door_texture.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Textures\warehouse_door_texture.png.meta
+        label: warehouse_door_texture.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Textures\warehouse_door_texture.png.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\warehouse_door_texture.png.meta
+          projectPath: Assets\Art\Textures\warehouse_door_texture.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs
+        label: Prefabs
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Prefabs\Cash register.prefab
+        label: Cash register.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Cash register.prefab
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Cash register.prefab
+          projectPath: Assets\Prefabs\Cash register.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Cash register.prefab.meta
+        label: Cash register.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Cash register.prefab.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Cash register.prefab.meta
+          projectPath: Assets\Prefabs\Cash register.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Counter Universal.prefab
+        label: Counter Universal.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Counter Universal.prefab
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Counter Universal.prefab
+          projectPath: Assets\Prefabs\Counter Universal.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Counter Universal.prefab.meta
+        label: Counter Universal.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Counter Universal.prefab.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Counter Universal.prefab.meta
+          projectPath: Assets\Prefabs\Counter Universal.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Enter door.prefab
+        label: Enter door.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Enter door.prefab
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Enter door.prefab
+          projectPath: Assets\Prefabs\Enter door.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Enter door.prefab.meta
+        label: Enter door.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Enter door.prefab.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Enter door.prefab.meta
+          projectPath: Assets\Prefabs\Enter door.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Wall to Door.prefab
+        label: Wall to Door.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Wall to Door.prefab
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Wall to Door.prefab
+          projectPath: Assets\Prefabs\Wall to Door.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Wall to Door.prefab.meta
+        label: Wall to Door.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Wall to Door.prefab.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Wall to Door.prefab.meta
+          projectPath: Assets\Prefabs\Wall to Door.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Wall.prefab
+        label: Wall.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Wall.prefab
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Wall.prefab
+          projectPath: Assets\Prefabs\Wall.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Wall.prefab.meta
+        label: Wall.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Wall.prefab.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Wall.prefab.meta
+          projectPath: Assets\Prefabs\Wall.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Warehouse door.prefab
+        label: Warehouse door.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Warehouse door.prefab
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Warehouse door.prefab
+          projectPath: Assets\Prefabs\Warehouse door.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Warehouse door.prefab.meta
+        label: Warehouse door.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Warehouse door.prefab.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Warehouse door.prefab.meta
+          projectPath: Assets\Prefabs\Warehouse door.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        label: SampleScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        label: default-2022.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -551,21 +2363,481 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: Assets\Art.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art.meta
+      projectPath: Assets\Art.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials.meta
+      projectPath: Assets\Art\Materials.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials\enter_door_texture 1.mat
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\enter_door_texture
+        1.mat
+      projectPath: Assets\Art\Materials\enter_door_texture 1.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials\enter_door_texture 1.mat.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\enter_door_texture
+        1.mat.meta
+      projectPath: Assets\Art\Materials\enter_door_texture 1.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials\NewLayer.terrainlayer
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\NewLayer.terrainlayer
+      projectPath: Assets\Art\Materials\NewLayer.terrainlayer
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials\NewLayer.terrainlayer.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\NewLayer.terrainlayer.meta
+      projectPath: Assets\Art\Materials\NewLayer.terrainlayer.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials\terrain.shader
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\terrain.shader
+      projectPath: Assets\Art\Materials\terrain.shader
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials\terrain.shader.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\terrain.shader.meta
+      projectPath: Assets\Art\Materials\terrain.shader.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials\terrain_texture.mat
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\terrain_texture.mat
+      projectPath: Assets\Art\Materials\terrain_texture.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials\terrain_texture.mat.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\terrain_texture.mat.meta
+      projectPath: Assets\Art\Materials\terrain_texture.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials\wall.mat
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\wall.mat
+      projectPath: Assets\Art\Materials\wall.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials\wall.mat.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\wall.mat.meta
+      projectPath: Assets\Art\Materials\wall.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials\warehouse_door_texture.mat
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\warehouse_door_texture.mat
+      projectPath: Assets\Art\Materials\warehouse_door_texture.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials\warehouse_door_texture.mat.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\warehouse_door_texture.mat.meta
+      projectPath: Assets\Art\Materials\warehouse_door_texture.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Models.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models.meta
+      projectPath: Assets\Art\Models.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Models\cash_register.fbx
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\cash_register.fbx
+      projectPath: Assets\Art\Models\cash_register.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Models\cash_register.fbx.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\cash_register.fbx.meta
+      projectPath: Assets\Art\Models\cash_register.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Models\counter.fbx
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\counter.fbx
+      projectPath: Assets\Art\Models\counter.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Models\counter.fbx.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\counter.fbx.meta
+      projectPath: Assets\Art\Models\counter.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Models\enter_door 2.fbx
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\enter_door 2.fbx
+      projectPath: Assets\Art\Models\enter_door 2.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Models\enter_door 2.fbx.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\enter_door 2.fbx.meta
+      projectPath: Assets\Art\Models\enter_door 2.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Models\wall.fbx
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\wall.fbx
+      projectPath: Assets\Art\Models\wall.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Models\wall.fbx.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\wall.fbx.meta
+      projectPath: Assets\Art\Models\wall.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Models\wall_to_door.fbx
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\wall_to_door.fbx
+      projectPath: Assets\Art\Models\wall_to_door.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Models\wall_to_door.fbx.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Models\wall_to_door.fbx.meta
+      projectPath: Assets\Art\Models\wall_to_door.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Textures.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures.meta
+      projectPath: Assets\Art\Textures.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Textures\cash_register_desk.png
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\cash_register_desk.png
+      projectPath: Assets\Art\Textures\cash_register_desk.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Textures\cash_register_desk.png.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\cash_register_desk.png.meta
+      projectPath: Assets\Art\Textures\cash_register_desk.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Textures\cash_register_texture.png
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\cash_register_texture.png
+      projectPath: Assets\Art\Textures\cash_register_texture.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Textures\cash_register_texture.png.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\cash_register_texture.png.meta
+      projectPath: Assets\Art\Textures\cash_register_texture.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Textures\counter_texture.png
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\counter_texture.png
+      projectPath: Assets\Art\Textures\counter_texture.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Textures\counter_texture.png.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\counter_texture.png.meta
+      projectPath: Assets\Art\Textures\counter_texture.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Textures\enter_door_texture 1.png
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\enter_door_texture
+        1.png
+      projectPath: Assets\Art\Textures\enter_door_texture 1.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Textures\enter_door_texture 1.png.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\enter_door_texture
+        1.png.meta
+      projectPath: Assets\Art\Textures\enter_door_texture 1.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Textures\warehouse_door_texture.png
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\warehouse_door_texture.png
+      projectPath: Assets\Art\Textures\warehouse_door_texture.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Textures\warehouse_door_texture.png.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Textures\warehouse_door_texture.png.meta
+      projectPath: Assets\Art\Textures\warehouse_door_texture.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Cash register.prefab
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Cash register.prefab
+      projectPath: Assets\Prefabs\Cash register.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Cash register.prefab.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Cash register.prefab.meta
+      projectPath: Assets\Prefabs\Cash register.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Counter Universal.prefab
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Counter Universal.prefab
+      projectPath: Assets\Prefabs\Counter Universal.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Counter Universal.prefab.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Counter Universal.prefab.meta
+      projectPath: Assets\Prefabs\Counter Universal.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Enter door.prefab
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Enter door.prefab
+      projectPath: Assets\Prefabs\Enter door.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Enter door.prefab.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Enter door.prefab.meta
+      projectPath: Assets\Prefabs\Enter door.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Wall to Door.prefab
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Wall to Door.prefab
+      projectPath: Assets\Prefabs\Wall to Door.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Wall to Door.prefab.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Wall to Door.prefab.meta
+      projectPath: Assets\Prefabs\Wall to Door.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Wall.prefab
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Wall.prefab
+      projectPath: Assets\Prefabs\Wall.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Wall.prefab.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Wall.prefab.meta
+      projectPath: Assets\Prefabs\Wall.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Warehouse door.prefab
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Warehouse door.prefab
+      projectPath: Assets\Prefabs\Warehouse door.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Warehouse door.prefab.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Warehouse door.prefab.meta
+      projectPath: Assets\Prefabs\Warehouse door.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 50 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2024-06-06T18:42:46.819+07:00
+      updatedTimeString: 2024-06-09T12:01:27.430+07:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2024-06-06T18:42:48.148+07:00
+      updatedTimeString: 2024-06-09T12:01:27.724+07:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2024-06-06T18:42:47.838+07:00
+      updatedTimeString: 2024-06-09T12:01:28.805+07:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 4780e733471047ab865fd15c2f5219c5f7d9be3d
+      mergeA: 
+      mergeB: 
+      authorName: vladimirruppel
+      authorEmail: minecraft20044@mail.ru
+      commitEmail: minecraft20044@mail.ru
+      commitName: vladimirruppel
+      summary: "\u041E\u043F\u0442\u0438\u043C\u0438\u0437\u0430\u0446\u0438\u044F
+        \u0441\u043A\u0440\u0438\u043F\u0442\u0430 \u043F\u0435\u0440\u0435\u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F
+        \u043A\u0430\u043C\u0435\u0440\u044B (\u0442\u0435\u043F\u0435\u0440\u044C
+        \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F
+        Terrain)"
+      description: 
+      timeString: 2024-06-09T11:59:53.000+07:00
+      commitTimeString: 2024-06-09T11:59:53.000+07:00
+      changes:
+      - path: Assets\Scripts\CameraMovement.cs
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\CameraMovement.cs
+        projectPath: Assets\Scripts\CameraMovement.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 1ee859008f4c99029bbae30347c42e858878fa65
+      mergeA: 
+      mergeB: 
+      authorName: vladimirruppel
+      authorEmail: minecraft20044@mail.ru
+      commitEmail: minecraft20044@mail.ru
+      commitName: vladimirruppel
+      summary: "+ \u043A \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0435\u043C\u0443
+        \u043A\u043E\u043C\u043C\u0438\u0442\u0443"
+      description: 
+      timeString: 2024-06-07T18:45:50.000+07:00
+      commitTimeString: 2024-06-07T18:45:50.000+07:00
+      changes:
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: dfc9e33ee37654937e6109165e4d6ce200d1d7b7
+      mergeA: 
+      mergeB: 
+      authorName: vladimirruppel
+      authorEmail: minecraft20044@mail.ru
+      commitEmail: minecraft20044@mail.ru
+      commitName: vladimirruppel
+      summary: "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 \u0441\u043A\u0440\u0438\u043F\u0442\u0430
+        \u043F\u0435\u0440\u0435\u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F
+        \u043A\u0430\u043C\u0435\u0440\u044B: \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0430
+        \u0431\u0435\u0441\u043A\u043E\u043D\u0435\u0447\u043D\u0430\u044F \u0433\u0435\u043D\u0435\u0440\u0430\u0446\u0438\u044F
+        \u043F\u043E\u043B\u0430"
+      description: 
+      timeString: 2024-06-07T18:45:24.000+07:00
+      commitTimeString: 2024-06-07T18:45:24.000+07:00
+      changes:
+      - path: Assets\Prefabs\FloorElement.prefab
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\FloorElement.prefab
+        projectPath: Assets\Prefabs\FloorElement.prefab
+        originalPath: Assets\Prefabs\Cube.prefab
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Prefabs\FloorElement.prefab.meta
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\FloorElement.prefab.meta
+        projectPath: Assets\Prefabs\FloorElement.prefab.meta
+        originalPath: Assets\Prefabs\Cube.prefab.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\CameraMovement.cs
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\CameraMovement.cs
+        projectPath: Assets\Scripts\CameraMovement.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\FloorElement.cs
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\FloorElement.cs
+        projectPath: Assets\Scripts\FloorElement.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\FloorElement.cs.meta
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\FloorElement.cs.meta
+        projectPath: Assets\Scripts\FloorElement.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 12f646dc9aa86ccccbcca6cf5d79bd5466a27dda
+      mergeA: 
+      mergeB: 
+      authorName: vladimirruppel
+      authorEmail: minecraft20044@mail.ru
+      commitEmail: minecraft20044@mail.ru
+      commitName: vladimirruppel
+      summary: "\u041E\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043B\u0435\u043D\u043E
+        \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435 \u043A\u0430\u043C\u0435\u0440\u044B
+        \u0438 \u0435\u0435 \u043F\u0440\u0438\u0431\u043B\u0438\u0436\u0435\u043D\u0438\u0435/\u043E\u0442\u0434\u0430\u043B\u0435\u043D\u0438\u0435"
+      description: "\u0421\u043A\u0440\u0438\u043F\u0442 \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F
+        \u0443\u0441\u043B\u043E\u0436\u043D\u0438\u0442\u0441\u044F"
+      timeString: 2024-06-06T17:55:53.000+07:00
+      commitTimeString: 2024-06-06T17:55:53.000+07:00
+      changes:
+      - path: Assets\Prefabs.meta
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs.meta
+        projectPath: Assets\Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Cube.prefab
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Cube.prefab
+        projectPath: Assets\Prefabs\Cube.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Cube.prefab.meta
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Cube.prefab.meta
+        projectPath: Assets\Prefabs\Cube.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\CameraMovement.cs
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\CameraMovement.cs
+        projectPath: Assets\Scripts\CameraMovement.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\CameraMovement.cs.meta
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\CameraMovement.cs.meta
+        projectPath: Assets\Scripts\CameraMovement.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: C:\Users\WiNdOwOzzz\Supermarket\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: 499e46b1c28fa9f5a6827fc00c7d91ac192404b5
       mergeA: 
       mergeB: 
@@ -856,14 +3128,170 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2024-06-09T12:03:12.551+07:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2024-06-09T12:03:12.890+07:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 4780e733471047ab865fd15c2f5219c5f7d9be3d
+        mergeA: 
+        mergeB: 
+        authorName: vladimirruppel
+        authorEmail: minecraft20044@mail.ru
+        commitEmail: minecraft20044@mail.ru
+        commitName: vladimirruppel
+        summary: "\u041E\u043F\u0442\u0438\u043C\u0438\u0437\u0430\u0446\u0438\u044F
+          \u0441\u043A\u0440\u0438\u043F\u0442\u0430 \u043F\u0435\u0440\u0435\u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F
+          \u043A\u0430\u043C\u0435\u0440\u044B (\u0442\u0435\u043F\u0435\u0440\u044C
+          \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F
+          Terrain)"
+        description: 
+        timeString: 2024-06-09T11:59:53.000+07:00
+        commitTimeString: 2024-06-09T11:59:53.000+07:00
+        changes:
+        - path: Assets\Scripts\CameraMovement.cs
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\CameraMovement.cs
+          projectPath: Assets\Scripts\CameraMovement.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 1ee859008f4c99029bbae30347c42e858878fa65
+        mergeA: 
+        mergeB: 
+        authorName: vladimirruppel
+        authorEmail: minecraft20044@mail.ru
+        commitEmail: minecraft20044@mail.ru
+        commitName: vladimirruppel
+        summary: "+ \u043A \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0435\u043C\u0443
+          \u043A\u043E\u043C\u043C\u0438\u0442\u0443"
+        description: 
+        timeString: 2024-06-07T18:45:50.000+07:00
+        commitTimeString: 2024-06-07T18:45:50.000+07:00
+        changes:
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: dfc9e33ee37654937e6109165e4d6ce200d1d7b7
+        mergeA: 
+        mergeB: 
+        authorName: vladimirruppel
+        authorEmail: minecraft20044@mail.ru
+        commitEmail: minecraft20044@mail.ru
+        commitName: vladimirruppel
+        summary: "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 \u0441\u043A\u0440\u0438\u043F\u0442\u0430
+          \u043F\u0435\u0440\u0435\u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F
+          \u043A\u0430\u043C\u0435\u0440\u044B: \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0430
+          \u0431\u0435\u0441\u043A\u043E\u043D\u0435\u0447\u043D\u0430\u044F \u0433\u0435\u043D\u0435\u0440\u0430\u0446\u0438\u044F
+          \u043F\u043E\u043B\u0430"
+        description: 
+        timeString: 2024-06-07T18:45:24.000+07:00
+        commitTimeString: 2024-06-07T18:45:24.000+07:00
+        changes:
+        - path: Assets\Prefabs\FloorElement.prefab
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\FloorElement.prefab
+          projectPath: Assets\Prefabs\FloorElement.prefab
+          originalPath: Assets\Prefabs\Cube.prefab
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Prefabs\FloorElement.prefab.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\FloorElement.prefab.meta
+          projectPath: Assets\Prefabs\FloorElement.prefab.meta
+          originalPath: Assets\Prefabs\Cube.prefab.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\CameraMovement.cs
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\CameraMovement.cs
+          projectPath: Assets\Scripts\CameraMovement.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\FloorElement.cs
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\FloorElement.cs
+          projectPath: Assets\Scripts\FloorElement.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\FloorElement.cs.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\FloorElement.cs.meta
+          projectPath: Assets\Scripts\FloorElement.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 12f646dc9aa86ccccbcca6cf5d79bd5466a27dda
+        mergeA: 
+        mergeB: 
+        authorName: vladimirruppel
+        authorEmail: minecraft20044@mail.ru
+        commitEmail: minecraft20044@mail.ru
+        commitName: vladimirruppel
+        summary: "\u041E\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043B\u0435\u043D\u043E
+          \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435 \u043A\u0430\u043C\u0435\u0440\u044B
+          \u0438 \u0435\u0435 \u043F\u0440\u0438\u0431\u043B\u0438\u0436\u0435\u043D\u0438\u0435/\u043E\u0442\u0434\u0430\u043B\u0435\u043D\u0438\u0435"
+        description: "\u0421\u043A\u0440\u0438\u043F\u0442 \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u044F
+          \u0443\u0441\u043B\u043E\u0436\u043D\u0438\u0442\u0441\u044F"
+        timeString: 2024-06-06T17:55:53.000+07:00
+        commitTimeString: 2024-06-06T17:55:53.000+07:00
+        changes:
+        - path: Assets\Prefabs.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs.meta
+          projectPath: Assets\Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Cube.prefab
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Cube.prefab
+          projectPath: Assets\Prefabs\Cube.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Cube.prefab.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Prefabs\Cube.prefab.meta
+          projectPath: Assets\Prefabs\Cube.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\CameraMovement.cs
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\CameraMovement.cs
+          projectPath: Assets\Scripts\CameraMovement.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\CameraMovement.cs.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\CameraMovement.cs.meta
+          projectPath: Assets\Scripts\CameraMovement.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: 499e46b1c28fa9f5a6827fc00c7d91ac192404b5
         mergeA: 
         mergeB: 
@@ -1179,30 +3607,11 @@ MonoBehaviour:
         values: []
       folders:
         keys:
-        - UserSettings
-        - UserSettings\Layouts
+        - Assets
         values:
-        - path: UserSettings
-          label: UserSettings
+        - path: Assets
+          label: Assets
           level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1246,8 +3655,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: UserSettings
-        label: UserSettings
+      - path: Assets
+        label: Assets
         level: 0
         isFolder: 1
         isContainer: 0
@@ -1264,11 +3673,11 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
+      - path: Assets\New Terrain.asset
+        label: New Terrain.asset
         level: 1
-        isFolder: 1
-        isContainer: 0
+        isFolder: 0
+        isContainer: 1
         isCollapsed: 0
         isHidden: 0
         isActive: 0
@@ -1276,14 +3685,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
+          path: Assets\New Terrain.asset
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\New Terrain.asset
+          projectPath: Assets\New Terrain.asset
           originalPath: 
-          indexStatus: 0
+          indexStatus: 5
           workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2022.dwlt
-        label: default-2022.dwlt
+      - path: Assets\New Terrain.asset.meta
+        label: New Terrain.asset.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -1294,11 +3703,11 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: UserSettings\Layouts\default-2022.dwlt
-          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UserSettings\Layouts\default-2022.dwlt
-          projectPath: UserSettings\Layouts\default-2022.dwlt
+          path: Assets\New Terrain.asset.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\New Terrain.asset.meta
+          projectPath: Assets\New Terrain.asset.meta
           originalPath: 
-          indexStatus: 3
+          indexStatus: 5
           workTreeStatus: 0
       selectedNode:
         path: 
@@ -1402,7 +3811,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/vladimirruppel/Supermarket
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 0
+  hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
@@ -1413,13 +3822,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2024-06-06T17:56:08.280+07:00
+    updatedTimeString: 2024-06-09T12:01:27.430+07:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2024-06-06T17:56:09.871+07:00
+    updatedTimeString: 2024-06-09T12:03:12.890+07:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2024-06-06T17:55:55.179+07:00
+    updatedTimeString: 2024-06-09T12:03:12.817+07:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -1463,9 +3872,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 707
-    width: 1514
-    height: 292
+    y: 699
+    width: 1517
+    height: 300
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1487,7 +3896,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1495,16 +3904,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\WiNdOwOzzz\Supermarket
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 425c0000
-    m_LastClickedID: 23618
-    m_ExpandedIDs: 00000000385c000000ca9a3b
+    m_SelectedIDs: e85c0000
+    m_LastClickedID: 23784
+    m_ExpandedIDs: 00000000e85c0000ea5c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1532,7 +3941,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000385c0000
+    m_ExpandedIDs: 00000000e85c0000ea5c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1559,7 +3968,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1608,9 +4017,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1515
+    x: 1518
     y: 73
-    width: 404
+    width: 401
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1657,8 +4066,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 278
-    height: 613
+    width: 280
+    height: 605
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1672,9 +4081,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f05b0000
-      m_LastClickedID: 23536
-      m_ExpandedIDs: 30fbffff
+      m_SelectedIDs: e85c0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 981df9ff30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1718,10 +4127,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 279
+    x: 281
     y: 73
-    width: 1234
-    height: 613
+    width: 1235
+    height: 605
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2028,9 +4437,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -29.400572, y: -21.970034, z: 24.918861}
+    m_Target: {x: -63.024918, y: -12.553662, z: -14.841558}
     speed: 2
-    m_Value: {x: -29.400572, y: -21.970034, z: 24.918861}
+    m_Value: {x: -63.024918, y: -12.553662, z: -14.841558}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2076,13 +4485,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.09306661, y: 0.89018184, z: -0.39306456, w: 0.21076503}
+    m_Target: {x: 0.2608514, y: -0.26175013, z: 0.07371196, w: 0.9262913}
     speed: 2
-    m_Value: {x: 0.0930663, y: 0.89017886, z: -0.39306325, w: 0.21076433}
+    m_Value: {x: 0.2608507, y: -0.26174942, z: 0.07371176, w: 0.9262887}
   m_Size:
-    m_Target: 54.97296
+    m_Target: 409.1339
     speed: 2
-    m_Value: 54.97296
+    m_Value: 409.1339
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2127,10 +4536,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 279
+    x: 281
     y: 73
-    width: 1234
-    height: 613
+    width: 1235
+    height: 605
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2147,7 +4556,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1234, y: 592}
+  m_TargetSize: {x: 1235, y: 584}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -2155,17 +4564,17 @@ MonoBehaviour:
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
-  m_Stats: 0
+  m_Stats: 1
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -617
-    m_HBaseRangeMax: 617
-    m_VBaseRangeMin: -296
-    m_VBaseRangeMax: 296
+    m_HBaseRangeMin: -617.5
+    m_HBaseRangeMax: 617.5
+    m_VBaseRangeMin: -292
+    m_VBaseRangeMax: 292
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2183,23 +4592,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1234
-      height: 592
+      width: 1235
+      height: 584
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 617, y: 296}
+    m_Translation: {x: 617.5, y: 292}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -617
-      y: -296
-      width: 1234
-      height: 592
+      x: -617.5
+      y: -292
+      width: 1235
+      height: 584
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1234, y: 613}
+  m_LastWindowPixelSize: {x: 1235, y: 605}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -2226,9 +4635,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 707
-    width: 1514
-    height: 292
+    y: 699
+    width: 1517
+    height: 300
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0

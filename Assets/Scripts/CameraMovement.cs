@@ -21,27 +21,13 @@ public class CameraMovement : MonoBehaviour
         HandleCameraMovement();
     }
 
-    void HandleCameraMovement()
+    private void HandleCameraMovement()
     {
         Vector3 pos = transform.position;
 
-        // Camera movement by hovering the mouse over the screen borders
-        if (Input.mousePosition.y >= Screen.height - panBorderThickness)
-        {
-            pos.z += panSpeed * Time.deltaTime * pos.y;
-        }
-        if (Input.mousePosition.y <= panBorderThickness)
-        {
-            pos.z -= panSpeed * Time.deltaTime * pos.y;
-        }
-        if (Input.mousePosition.x >= Screen.width - panBorderThickness)
-        {
-            pos.x += panSpeed * Time.deltaTime * pos.y;
-        }
-        if (Input.mousePosition.x <= panBorderThickness)
-        {
-            pos.x -= panSpeed * Time.deltaTime * pos.y;
-        }
+        // Camera movement by pressing arrows or WASD keys
+        pos.z += Input.GetAxis("Vertical") * panSpeed * Time.deltaTime * pos.y;
+        pos.x += Input.GetAxis("Horizontal") * panSpeed * Time.deltaTime * pos.y;
 
         // Camera movement by pressing and dragging the middle mouse button
         if (Input.GetMouseButtonDown(2))
