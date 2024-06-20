@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 44
+  controlID: 106
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,12 +64,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1518
+    x: 1519
     y: 0
-    width: 402
+    width: 401
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -93,7 +93,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 281
+    width: 232
     height: 626
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -119,7 +119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 626
-    width: 1518
+    width: 1519
     height: 321
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -219,12 +219,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1518
+    width: 1519
     height: 947
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 45
+  controlID: 37
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1518
+    width: 1519
     height: 626
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 46
+  controlID: 38
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,23 +260,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 281
+    x: 232
     y: 0
-    width: 1237
+    width: 1287
     height: 626
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -311,16 +311,16 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: -1
+  progressMessageClearTime: 9846.271757499999
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
-  changeTab: 2
-  activeTab: 2
+  currentTrackingStatusHasUpdate: 1
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -490,13 +490,13 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
     currentBranch: master
-    treeScroll: {x: 0, y: 0}
+    treeScroll: {x: 0, y: 17}
     treeChanges:
       assets:
         keys:
@@ -504,6 +504,7 @@ MonoBehaviour:
         - 6b4682de38b363f4298902a5990c8c06
         - 7c86932551b1c034d866770c99122546
         - 1c8189a2805d5a047be04635c460cf91
+        - f53e2abdde9974649850016ca6a38f52
         - 174367f8ad87d3440af63054327a7c13
         - aad752392f3a53a41b07a0d39328e87b
         - 95d74bc0b80dfcd40ad39103f836058d
@@ -528,8 +529,14 @@ MonoBehaviour:
         - 5dc3246774aab48479b5b98adde93247
         - 38a64f4f7e2392f45bb7b53d76f1273c
         - 597b9d9cbc748f148b2199f0a3f28b53
-        - 460ac9dfb1551ef45ab79e9e8e755799
-        - 9fc0d4010bbf28b4594072e72b8655ab
+        - 2db9d3f6296868349b1756bb89b9f997
+        - 1489e2c9003e1154aadb0ef4bdd88084
+        - d6e9d4449caf2c040a8e5abf20cfe66a
+        - 0a0dd2aa6921cb44a8fd02205c077d1c
+        - 7c9dc9d3a74906b42b5ffd2b4a0bac40
+        - 4f5fe399087c13b4fad5da95f92d7f51
+        - 5e190cbca34f29847be8e5aa726b5681
+        - d9eb0d8cb74d3bc4eabbe45b282070e9
         values:
         - path: Assets
           label: Assets
@@ -601,6 +608,24 @@ MonoBehaviour:
             fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\enter_door_texture
               1.mat
             projectPath: Assets\Art\Materials\enter_door_texture 1.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Art\Materials\New Terrain.asset
+          label: New Terrain.asset
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Art\Materials\New Terrain.asset
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\New Terrain.asset
+            projectPath: Assets\Art\Materials\New Terrain.asset
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
@@ -1038,8 +1063,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: Assets\Scenes
-          label: Scenes
+        - path: Assets\Scripts
+          label: Scripts
           level: 1
           isFolder: 1
           isContainer: 0
@@ -1056,10 +1081,28 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scenes\SampleScene.unity
-          label: SampleScene.unity
+        - path: Assets\Scripts\UIToolsMenuScript.cs
+          label: UIToolsMenuScript.cs
           level: 2
           isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\UIToolsMenuScript.cs
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\UIToolsMenuScript.cs
+            projectPath: Assets\Scripts\UIToolsMenuScript.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\UI Toolkit
+          label: UI Toolkit
+          level: 1
+          isFolder: 1
           isContainer: 0
           isCollapsed: 0
           isHidden: 0
@@ -1068,12 +1111,102 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Scenes\SampleScene.unity
-            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scenes\SampleScene.unity
-            projectPath: Assets\Scenes\SampleScene.unity
+            path: 
+            fullPath: 
+            projectPath: 
             originalPath: 
             indexStatus: 0
-            workTreeStatus: 3
+            workTreeStatus: 0
+        - path: Assets\UI Toolkit\PanelSettings.asset
+          label: PanelSettings.asset
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\UI Toolkit\PanelSettings.asset
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\PanelSettings.asset
+            projectPath: Assets\UI Toolkit\PanelSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\UI Toolkit\ToolsVisualTree.uxml
+          label: ToolsVisualTree.uxml
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\UI Toolkit\ToolsVisualTree.uxml
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\ToolsVisualTree.uxml
+            projectPath: Assets\UI Toolkit\ToolsVisualTree.uxml
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\UI Toolkit\ToolsVisualTreeStyle.uss
+          label: ToolsVisualTreeStyle.uss
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\UI Toolkit\ToolsVisualTreeStyle.uss
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\ToolsVisualTreeStyle.uss
+            projectPath: Assets\UI Toolkit\ToolsVisualTreeStyle.uss
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\UI Toolkit\UnityThemes
+          label: UnityThemes
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss
+          label: UnityDefaultRuntimeTheme.tss
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss
+            fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss
+            projectPath: Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
       folders:
         keys:
         - Assets
@@ -1082,9 +1215,10 @@ MonoBehaviour:
         - Assets\Art\Models
         - Assets\Art\Textures
         - Assets\Prefabs
-        - Assets\Scenes
-        - UserSettings
-        - UserSettings\Layouts
+        - Assets\Scripts
+        - Assets\UI Toolkit
+        - Assets\UI Toolkit\UnityThemes
+        - UIElementsSchema
         values:
         - path: Assets
           label: Assets
@@ -1194,8 +1328,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
+        - path: Assets\Scripts
+          label: Scripts
           level: 1
           isFolder: 1
           isContainer: 0
@@ -1212,27 +1346,45 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
+        - path: Assets\UI Toolkit
+          label: UI Toolkit
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\UI Toolkit\UnityThemes
+          label: UnityThemes
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UIElementsSchema
+          label: UIElementsSchema
           level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1401,6 +1553,42 @@ MonoBehaviour:
           fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\enter_door_texture
             1.mat.meta
           projectPath: Assets\Art\Materials\enter_door_texture 1.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Materials\New Terrain.asset
+        label: New Terrain.asset
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials\New Terrain.asset
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\New Terrain.asset
+          projectPath: Assets\Art\Materials\New Terrain.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Art\Materials\New Terrain.asset.meta
+        label: New Terrain.asset.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Art\Materials\New Terrain.asset.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\New Terrain.asset.meta
+          projectPath: Assets\Art\Materials\New Terrain.asset.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -2254,8 +2442,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Scenes
-        label: Scenes
+      - path: Assets\Scripts
+        label: Scripts
         level: 1
         isFolder: 1
         isContainer: 0
@@ -2272,8 +2460,188 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity
-        label: SampleScene.unity
+      - path: Assets\Scripts\UIToolsMenuScript.cs
+        label: UIToolsMenuScript.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\UIToolsMenuScript.cs
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\UIToolsMenuScript.cs
+          projectPath: Assets\Scripts\UIToolsMenuScript.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\UIToolsMenuScript.cs.meta
+        label: UIToolsMenuScript.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\UIToolsMenuScript.cs.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\UIToolsMenuScript.cs.meta
+          projectPath: Assets\Scripts\UIToolsMenuScript.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\UI Toolkit.meta
+        label: UI Toolkit.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\UI Toolkit.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit.meta
+          projectPath: Assets\UI Toolkit.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\UI Toolkit
+        label: UI Toolkit
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\UI Toolkit\PanelSettings.asset
+        label: PanelSettings.asset
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\UI Toolkit\PanelSettings.asset
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\PanelSettings.asset
+          projectPath: Assets\UI Toolkit\PanelSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\UI Toolkit\PanelSettings.asset.meta
+        label: PanelSettings.asset.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\UI Toolkit\PanelSettings.asset.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\PanelSettings.asset.meta
+          projectPath: Assets\UI Toolkit\PanelSettings.asset.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\UI Toolkit\ToolsVisualTree.uxml
+        label: ToolsVisualTree.uxml
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\UI Toolkit\ToolsVisualTree.uxml
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\ToolsVisualTree.uxml
+          projectPath: Assets\UI Toolkit\ToolsVisualTree.uxml
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\UI Toolkit\ToolsVisualTree.uxml.meta
+        label: ToolsVisualTree.uxml.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\UI Toolkit\ToolsVisualTree.uxml.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\ToolsVisualTree.uxml.meta
+          projectPath: Assets\UI Toolkit\ToolsVisualTree.uxml.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\UI Toolkit\ToolsVisualTreeStyle.uss
+        label: ToolsVisualTreeStyle.uss
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\UI Toolkit\ToolsVisualTreeStyle.uss
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\ToolsVisualTreeStyle.uss
+          projectPath: Assets\UI Toolkit\ToolsVisualTreeStyle.uss
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\UI Toolkit\ToolsVisualTreeStyle.uss.meta
+        label: ToolsVisualTreeStyle.uss.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\UI Toolkit\ToolsVisualTreeStyle.uss.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\ToolsVisualTreeStyle.uss.meta
+          projectPath: Assets\UI Toolkit\ToolsVisualTreeStyle.uss.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\UI Toolkit\UnityThemes.meta
+        label: UnityThemes.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2284,14 +2652,68 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity
-          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scenes\SampleScene.unity
-          projectPath: Assets\Scenes\SampleScene.unity
+          path: Assets\UI Toolkit\UnityThemes.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\UnityThemes.meta
+          projectPath: Assets\UI Toolkit\UnityThemes.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\UI Toolkit\UnityThemes
+        label: UnityThemes
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 3
-      - path: UserSettings
-        label: UserSettings
+          workTreeStatus: 0
+      - path: Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss
+        label: UnityDefaultRuntimeTheme.tss
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss
+          projectPath: Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss.meta
+        label: UnityDefaultRuntimeTheme.tss.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss.meta
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss.meta
+          projectPath: Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UIElementsSchema
+        label: UIElementsSchema
         level: 0
         isFolder: 1
         isContainer: 0
@@ -2308,27 +2730,9 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
+      - path: UIElementsSchema\UIElements.xsd
+        label: UIElements.xsd
         level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2022.dwlt
-        label: default-2022.dwlt
-        level: 2
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -2338,12 +2742,192 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: UserSettings\Layouts\default-2022.dwlt
-          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UserSettings\Layouts\default-2022.dwlt
-          projectPath: UserSettings\Layouts\default-2022.dwlt
+          path: UIElementsSchema\UIElements.xsd
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UIElements.xsd
+          projectPath: UIElementsSchema\UIElements.xsd
           originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UIElementsSchema\Unity.Profiling.Editor.xsd
+        label: Unity.Profiling.Editor.xsd
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UIElementsSchema\Unity.Profiling.Editor.xsd
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\Unity.Profiling.Editor.xsd
+          projectPath: UIElementsSchema\Unity.Profiling.Editor.xsd
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UIElementsSchema\Unity.UI.Builder.xsd
+        label: Unity.UI.Builder.xsd
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UIElementsSchema\Unity.UI.Builder.xsd
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\Unity.UI.Builder.xsd
+          projectPath: UIElementsSchema\Unity.UI.Builder.xsd
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UIElementsSchema\UnityEditor.Experimental.GraphView.xsd
+        label: UnityEditor.Experimental.GraphView.xsd
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UIElementsSchema\UnityEditor.Experimental.GraphView.xsd
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEditor.Experimental.GraphView.xsd
+          projectPath: UIElementsSchema\UnityEditor.Experimental.GraphView.xsd
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UIElementsSchema\UnityEditor.Overlays.xsd
+        label: UnityEditor.Overlays.xsd
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UIElementsSchema\UnityEditor.Overlays.xsd
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEditor.Overlays.xsd
+          projectPath: UIElementsSchema\UnityEditor.Overlays.xsd
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UIElementsSchema\UnityEditor.PackageManager.UI.Internal.xsd
+        label: UnityEditor.PackageManager.UI.Internal.xsd
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UIElementsSchema\UnityEditor.PackageManager.UI.Internal.xsd
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEditor.PackageManager.UI.Internal.xsd
+          projectPath: UIElementsSchema\UnityEditor.PackageManager.UI.Internal.xsd
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UIElementsSchema\UnityEditor.Search.xsd
+        label: UnityEditor.Search.xsd
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UIElementsSchema\UnityEditor.Search.xsd
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEditor.Search.xsd
+          projectPath: UIElementsSchema\UnityEditor.Search.xsd
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UIElementsSchema\UnityEditor.ShortcutManagement.xsd
+        label: UnityEditor.ShortcutManagement.xsd
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UIElementsSchema\UnityEditor.ShortcutManagement.xsd
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEditor.ShortcutManagement.xsd
+          projectPath: UIElementsSchema\UnityEditor.ShortcutManagement.xsd
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UIElementsSchema\UnityEditor.UIElements.Debugger.xsd
+        label: UnityEditor.UIElements.Debugger.xsd
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UIElementsSchema\UnityEditor.UIElements.Debugger.xsd
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEditor.UIElements.Debugger.xsd
+          projectPath: UIElementsSchema\UnityEditor.UIElements.Debugger.xsd
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UIElementsSchema\UnityEditor.UIElements.xsd
+        label: UnityEditor.UIElements.xsd
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UIElementsSchema\UnityEditor.UIElements.xsd
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEditor.UIElements.xsd
+          projectPath: UIElementsSchema\UnityEditor.UIElements.xsd
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UIElementsSchema\UnityEngine.UIElements.xsd
+        label: UnityEngine.UIElements.xsd
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UIElementsSchema\UnityEngine.UIElements.xsd
+          fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEngine.UIElements.xsd
+          projectPath: UIElementsSchema\UnityEngine.UIElements.xsd
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       selectedNode:
         path: 
         label: 
@@ -2387,6 +2971,18 @@ MonoBehaviour:
       fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\enter_door_texture
         1.mat.meta
       projectPath: Assets\Art\Materials\enter_door_texture 1.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials\New Terrain.asset
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\New Terrain.asset
+      projectPath: Assets\Art\Materials\New Terrain.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Art\Materials\New Terrain.asset.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Art\Materials\New Terrain.asset.meta
+      projectPath: Assets\Art\Materials\New Terrain.asset.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
@@ -2656,27 +3252,153 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Scenes\SampleScene.unity
-      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scenes\SampleScene.unity
-      projectPath: Assets\Scenes\SampleScene.unity
+    - path: Assets\Scripts\UIToolsMenuScript.cs
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\UIToolsMenuScript.cs
+      projectPath: Assets\Scripts\UIToolsMenuScript.cs
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: UserSettings\Layouts\default-2022.dwlt
-      fullPath: C:\Users\WiNdOwOzzz\Supermarket\UserSettings\Layouts\default-2022.dwlt
-      projectPath: UserSettings\Layouts\default-2022.dwlt
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\UIToolsMenuScript.cs.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\Scripts\UIToolsMenuScript.cs.meta
+      projectPath: Assets\Scripts\UIToolsMenuScript.cs.meta
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 50 changed files
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\UI Toolkit.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit.meta
+      projectPath: Assets\UI Toolkit.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\UI Toolkit\PanelSettings.asset
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\PanelSettings.asset
+      projectPath: Assets\UI Toolkit\PanelSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\UI Toolkit\PanelSettings.asset.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\PanelSettings.asset.meta
+      projectPath: Assets\UI Toolkit\PanelSettings.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\UI Toolkit\ToolsVisualTree.uxml
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\ToolsVisualTree.uxml
+      projectPath: Assets\UI Toolkit\ToolsVisualTree.uxml
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\UI Toolkit\ToolsVisualTree.uxml.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\ToolsVisualTree.uxml.meta
+      projectPath: Assets\UI Toolkit\ToolsVisualTree.uxml.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\UI Toolkit\ToolsVisualTreeStyle.uss
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\ToolsVisualTreeStyle.uss
+      projectPath: Assets\UI Toolkit\ToolsVisualTreeStyle.uss
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\UI Toolkit\ToolsVisualTreeStyle.uss.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\ToolsVisualTreeStyle.uss.meta
+      projectPath: Assets\UI Toolkit\ToolsVisualTreeStyle.uss.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\UI Toolkit\UnityThemes.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\UnityThemes.meta
+      projectPath: Assets\UI Toolkit\UnityThemes.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss
+      projectPath: Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss.meta
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss.meta
+      projectPath: Assets\UI Toolkit\UnityThemes\UnityDefaultRuntimeTheme.tss.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UIElementsSchema\UIElements.xsd
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UIElements.xsd
+      projectPath: UIElementsSchema\UIElements.xsd
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UIElementsSchema\Unity.Profiling.Editor.xsd
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\Unity.Profiling.Editor.xsd
+      projectPath: UIElementsSchema\Unity.Profiling.Editor.xsd
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UIElementsSchema\Unity.UI.Builder.xsd
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\Unity.UI.Builder.xsd
+      projectPath: UIElementsSchema\Unity.UI.Builder.xsd
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UIElementsSchema\UnityEditor.Experimental.GraphView.xsd
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEditor.Experimental.GraphView.xsd
+      projectPath: UIElementsSchema\UnityEditor.Experimental.GraphView.xsd
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UIElementsSchema\UnityEditor.Overlays.xsd
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEditor.Overlays.xsd
+      projectPath: UIElementsSchema\UnityEditor.Overlays.xsd
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UIElementsSchema\UnityEditor.PackageManager.UI.Internal.xsd
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEditor.PackageManager.UI.Internal.xsd
+      projectPath: UIElementsSchema\UnityEditor.PackageManager.UI.Internal.xsd
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UIElementsSchema\UnityEditor.Search.xsd
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEditor.Search.xsd
+      projectPath: UIElementsSchema\UnityEditor.Search.xsd
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UIElementsSchema\UnityEditor.ShortcutManagement.xsd
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEditor.ShortcutManagement.xsd
+      projectPath: UIElementsSchema\UnityEditor.ShortcutManagement.xsd
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UIElementsSchema\UnityEditor.UIElements.Debugger.xsd
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEditor.UIElements.Debugger.xsd
+      projectPath: UIElementsSchema\UnityEditor.UIElements.Debugger.xsd
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UIElementsSchema\UnityEditor.UIElements.xsd
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEditor.UIElements.xsd
+      projectPath: UIElementsSchema\UnityEditor.UIElements.xsd
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UIElementsSchema\UnityEngine.UIElements.xsd
+      fullPath: C:\Users\WiNdOwOzzz\Supermarket\UIElementsSchema\UnityEngine.UIElements.xsd
+      projectPath: UIElementsSchema\UnityEngine.UIElements.xsd
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    changedFilesText: 73 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2024-06-09T12:01:27.430+07:00
+      updatedTimeString: 2024-06-20T18:57:24.276+07:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2024-06-09T12:01:27.724+07:00
+      updatedTimeString: 2024-06-20T18:57:29.549+07:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2024-06-09T12:01:28.805+07:00
+      updatedTimeString: 2024-06-20T18:53:47.437+07:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -3128,10 +3850,10 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2024-06-09T12:03:12.551+07:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2024-06-09T12:03:12.890+07:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
@@ -3822,13 +4544,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2024-06-09T12:01:27.430+07:00
+    updatedTimeString: 2024-06-18T17:34:44.404+07:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2024-06-09T12:03:12.890+07:00
+    updatedTimeString: 2024-06-18T17:44:01.130+07:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2024-06-09T12:03:12.817+07:00
+    updatedTimeString: 2024-06-18T17:44:01.105+07:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -3846,8 +4568,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Pushed
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
@@ -3873,7 +4595,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 699
-    width: 1517
+    width: 1518
     height: 300
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -3896,7 +4618,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -3904,16 +4626,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\WiNdOwOzzz\Supermarket
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e85c0000
-    m_LastClickedID: 23784
-    m_ExpandedIDs: 00000000e85c0000ea5c000000ca9a3b
+    m_SelectedIDs: 985c0000
+    m_LastClickedID: 23704
+    m_ExpandedIDs: 00000000845c0000865c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3941,7 +4663,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e85c0000ea5c0000
+    m_ExpandedIDs: 00000000845c0000865c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3968,7 +4690,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -4017,9 +4739,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1518
+    x: 1519
     y: 73
-    width: 401
+    width: 400
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -4066,7 +4788,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 280
+    width: 231
     height: 605
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -4081,9 +4803,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e85c0000
+      m_SelectedIDs: 225c0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 981df9ff30fbffff
+      m_ExpandedIDs: 30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -4127,9 +4849,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 281
+    x: 232
     y: 73
-    width: 1235
+    width: 1285
     height: 605
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -4437,9 +5159,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -63.024918, y: -12.553662, z: -14.841558}
+    m_Target: {x: 0, y: 1, z: 0}
     speed: 2
-    m_Value: {x: -63.024918, y: -12.553662, z: -14.841558}
+    m_Value: {x: 0, y: 1, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -4489,9 +5211,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.2608507, y: -0.26174942, z: 0.07371176, w: 0.9262887}
   m_Size:
-    m_Target: 409.1339
+    m_Target: 12.124355
     speed: 2
-    m_Value: 409.1339
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -4536,9 +5258,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 281
+    x: 232
     y: 73
-    width: 1235
+    width: 1285
     height: 605
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -4556,7 +5278,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1235, y: 584}
+  m_TargetSize: {x: 1285, y: 584}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -4564,15 +5286,15 @@ MonoBehaviour:
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
-  m_Stats: 1
+  m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -617.5
-    m_HBaseRangeMax: 617.5
+    m_HBaseRangeMin: -642.5
+    m_HBaseRangeMax: 642.5
     m_VBaseRangeMin: -292
     m_VBaseRangeMax: 292
     m_HAllowExceedBaseRangeMin: 1
@@ -4583,7 +5305,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -4592,23 +5314,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1235
+      width: 1285
       height: 584
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 617.5, y: 292}
+    m_Translation: {x: 642.5, y: 292}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -617.5
+      x: -642.5
       y: -292
-      width: 1235
+      width: 1285
       height: 584
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1235, y: 605}
+  m_LastWindowPixelSize: {x: 1285, y: 605}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -4634,10 +5356,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 699
-    width: 1517
-    height: 300
+    x: 961
+    y: 701
+    width: 757
+    height: 297
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0

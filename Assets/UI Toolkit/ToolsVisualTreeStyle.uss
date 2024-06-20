@@ -1,0 +1,49 @@
+:root {
+    --panel-width: 210px;
+}
+
+#WidthContainer {
+    width: var(--panel-width);
+}
+
+.button {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+}
+
+.menu {
+    position: relative;
+    overflow: visible;
+}
+
+.active {
+}
+
+.menu.active > .menu-button {
+    background-color: rgb(144, 144, 144);
+}
+
+.menu > .submenu {
+    position: absolute;
+    padding: 0;
+    width: var(--panel-width);
+    left: var(--panel-width);
+    top: 0px;
+    display: none;
+}
+
+.menu.active > .submenu {
+    display: flex;
+}
+
+.menu {
+}
+
+.submenu {
+}

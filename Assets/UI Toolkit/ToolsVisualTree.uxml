@@ -1,0 +1,60 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/ToolsVisualTreeStyle.uss?fileID=7433441132597879392&amp;guid=4f5fe399087c13b4fad5da95f92d7f51&amp;type=3#ToolsVisualTreeStyle" />
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:VisualElement name="WidthContainer" style="height: 100%;">
+            <ui:VisualElement name="ChangeBordersMenu" class="menu">
+                <ui:Button text="Границы" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChangeBordersButton" class="button menu-button" />
+                <ui:VisualElement name="ChangeBordersSubmenu" class="submenu" style="flex-grow: 1;">
+                    <ui:VisualElement name="ManageWallsMenu" class="menu" style="flex-grow: 1;">
+                        <ui:Button text="Стены" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ManageWallsButton" class="button menu-button" />
+                        <ui:VisualElement name="ManageWallsSubmenu" class="submenu" style="flex-grow: 1;">
+                            <ui:Button text="Добавить стену" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddWallsButton" class="button" />
+                            <ui:Button text="Удалить стену" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RemoveWallsButton" class="button" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ManageDoorsMenu" class="menu" style="flex-grow: 1;">
+                        <ui:Button text="Двери" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ManageDoorsButton" class="button menu-button" />
+                        <ui:VisualElement name="ManageDoorsSubmenu" class="submenu" style="flex-grow: 1; width: 260px;">
+                            <ui:Button text="Добавить входную дверь" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddEnterDoorsButton" class="button" />
+                            <ui:Button text="Добавить дверь склада" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddWarehouseDoorsButton" class="button" />
+                            <ui:Button text="Удалить дверь" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RemoveDoorsButton" class="button" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:Button text="Подтвердить" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChangeBordersConfirmButton" class="button" />
+                    <ui:Button text="Отмена" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChangeBordersCancelButton" class="button" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="ManageCountersMenu" class="menu">
+                <ui:Button text="Прилавки" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ManageCountersButton" class="button menu-button" />
+                <ui:VisualElement name="ManageCountersSubmenu" class="submenu" style="flex-grow: 1;">
+                    <ui:VisualElement name="AddCountersMenu" class="menu" style="flex-grow: 1;">
+                        <ui:Button text="Добавить прилавок" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddCountersButton" class="button menu-button" />
+                        <ui:VisualElement name="AddCountersSubmenu" class="submenu" style="flex-grow: 1;">
+                            <ui:Button text="Прилавок 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddCounterOneButton" class="button" />
+                            <ui:Button text="Прилавок 2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddCounterTwoButton" class="button" />
+                            <ui:Button text="Прилавок 3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddCounterThreeButton" class="button" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ChangeCountersMenu" class="menu" style="flex-grow: 1;">
+                        <ui:Button text="Изменить прилавок" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChangeCountersButton" class="button menu-button" />
+                        <ui:VisualElement name="ChangeCountersSubmenu" class="submenu" style="flex-grow: 1;">
+                            <ui:Button text="Прилавок 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChangeCounterOneButton" class="button" />
+                            <ui:Button text="Прилавок 2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChangeCounterTwoButton" class="button" />
+                            <ui:Button text="Прилавок 3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChangeCounterThreeButton" class="button" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:Button text="Удалить прилавок" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RemoveCountersButton" class="button" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="Продукты" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ManageGoodsButton" class="button" />
+            <ui:VisualElement name="ManageCashDesksMenu" class="menu">
+                <ui:Button text="Кассы" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ManageCashDesksButton" class="button menu-button" />
+                <ui:VisualElement name="ManageCashDesksSubmenu" class="submenu" style="flex-grow: 1;">
+                    <ui:Button text="Добавить кассу" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddCashDesksButton" class="button" />
+                    <ui:Button text="Удалить кассу" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RemoveCashDesks" class="button" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="Информация" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GetInformationButton" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
