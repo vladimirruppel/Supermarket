@@ -78,7 +78,13 @@ public class UIToolsMenuScript : MonoBehaviour
             }
         }
 
+        UserInteractionHandler userInteractionHandler = GameObject.Find("Main Camera").GetComponent<UserInteractionHandler>();
+
         switch (clickedButton.name) {
+            case addWallsButtonName:
+                userInteractionHandler.SetState(InteractionState.AddingWalls);
+                break;
+            // в зависимости от имени кнопки запустить определенное состояние в скрипте UserInteractionHandler
             default:
                 break;
         }
