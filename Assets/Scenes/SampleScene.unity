@@ -131,7 +131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 10397590}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,6 +247,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &723370731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 723370732}
+  m_Layer: 7
+  m_Name: Enter Doors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &723370732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723370731}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1012903938}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &799009055
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +339,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1489e2c9003e1154aadb0ef4bdd88084, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &825607342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 825607343}
+  m_Layer: 7
+  m_Name: Warehouse Doors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &825607343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825607342}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1012903938}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,9 +498,18 @@ MonoBehaviour:
   floorLayerMask:
     serializedVersion: 2
     m_Bits: 64
+  interriorLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
   wallsParent: {fileID: 10397589}
+  enterDoorsParent: {fileID: 723370731}
+  warehouseDoorsParent: {fileID: 825607342}
   visualWallPrefab: {fileID: 1021996381277615959, guid: 5863f3a8e0063ac49a5866609839c2c0, type: 3}
   wallPrefab: {fileID: 437580430803640461, guid: 38a64f4f7e2392f45bb7b53d76f1273c, type: 3}
+  visualEnterDoorPrefab: {fileID: 4499380501519842654, guid: 8cf280ae832b34e4cb1e30fcfab669c7, type: 3}
+  enterDoorPrefab: {fileID: 6314882072945746903, guid: 790a5ab7ad5ac7d4f84435631f8922d1, type: 3}
+  visualWarehouseDoorPrefab: {fileID: 3623294117964215177, guid: 27707b36fa4ca22488432622f7f3236e, type: 3}
+  warehouseDoorPrefab: {fileID: 2644859871066084733, guid: 597b9d9cbc748f148b2199f0a3f28b53, type: 3}
 --- !u!1 &1012903937
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,7 +519,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1012903938}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Interrior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -469,6 +540,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 10397590}
+  - {fileID: 723370732}
+  - {fileID: 825607343}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1317911532

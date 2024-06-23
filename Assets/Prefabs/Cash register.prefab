@@ -48,9 +48,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5902971270548390587, guid: 1ae3607b48125504097eef96ef2553db, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -1509204830026194798, guid: 1ae3607b48125504097eef96ef2553db, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1ae3607b48125504097eef96ef2553db, type: 3}
       propertyPath: m_Name
       value: Cash register
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1ae3607b48125504097eef96ef2553db, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

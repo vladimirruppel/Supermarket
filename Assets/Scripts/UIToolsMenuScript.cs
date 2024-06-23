@@ -84,6 +84,18 @@ public class UIToolsMenuScript : MonoBehaviour
             case addWallsButtonName:
                 userInteractionHandler.SetState(InteractionState.AddingWalls);
                 break;
+            case removeWallsButtonName:
+                userInteractionHandler.SetState(InteractionState.RemovingWalls);
+                break;
+            case addEnterDoorsButtonName:
+                userInteractionHandler.SetState(InteractionState.AddingEnterDoors);
+                break;
+            case addWarehouseDoorsButtonName:
+                userInteractionHandler.SetState(InteractionState.AddingWarehouseDoors);
+                break;
+            case removeDoorsButtonName:
+                userInteractionHandler.SetState(InteractionState.RemovingDoors);
+                break;
             // в зависимости от имени кнопки запустить определенное состояние в скрипте UserInteractionHandler
             default:
                 break;

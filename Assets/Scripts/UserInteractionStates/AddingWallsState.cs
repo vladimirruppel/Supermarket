@@ -37,15 +37,4 @@ public class AddingWallsState : IUserInteractionState
             GameObject.Destroy(visualWallObject);
         }
     }
-
-    private Vector3 GetMouseWorldPosition(UserInteractionHandler handler)
-    {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, Mathf.Infinity, handler.floorLayerMask))
-        {
-            return hit.point;
-        }
-        return Vector3.zero;
-    }
 }
